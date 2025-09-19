@@ -1,15 +1,21 @@
 #include <iostream>
 #include <vector>
 #include <chrono>
+#include <functional>
+#include "gerarVetor.h"
 
 void measureSearch(){
 
-    std::vector <int> vetor;
-    std::vector <long long int> tempo;
+    int n = 100;
 
-        for(int i = 0; i < 100; i++){
-            vetor.push_back(i+1);
-        }
+    std::cout << "Medicao de busca: \n";
+
+    std::cout << "Numero de entradas | Tempo medio:\n";
+
+    for(int i = 0; i < 5; i++){
+
+    std::vector <int> vetor = gerarVetorOrdenado(n);
+    std::vector <long long int> tempo;
 
         for(int m = 0; m < 5; m++){
 
@@ -25,17 +31,17 @@ void measureSearch(){
 
         long long int media = 0;
 
-        for(long long int i:tempo){
+        for(long long int a:tempo){
 
-            media += i;
+            media += a;
 
         }
 
-        std::cout << "Tempo medio: " << static_cast<double> (media)/tempo.size() << " ms \n";
+        std::cout << "-Teste " << i+1 << ": "<< n << " | " << static_cast<double> (media)/tempo.size() << " ms \n";
+
+        n *= 10;
+
+    }
 }
 
-int main(){
 
-
-    measureSearch();
-}
