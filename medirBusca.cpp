@@ -4,11 +4,11 @@
 #include <functional>
 #include "gerarVetor.h"
 
-void measureSearch(){
+void measureSearch(std::function<int(const std::vector <int> &vector, int find)> algoritmoBusca, std::string nomeDaBusca){
 
     int n = 100;
 
-    std::cout << "Medicao de busca: \n";
+    std::cout << "--- Medicao de " << nomeDaBusca << " ---\n";
 
     std::cout << "Numero de entradas | Tempo medio:\n";
 
@@ -21,7 +21,7 @@ void measureSearch(){
 
             auto start = std::chrono::high_resolution_clock::now();
 
-            //Busca
+            algoritmoBusca(vetor, -1);
 
             auto end = std::chrono::high_resolution_clock::now();
 
@@ -37,7 +37,7 @@ void measureSearch(){
 
         }
 
-        std::cout << "-Teste " << i+1 << ": "<< n << " | " << static_cast<double> (media)/tempo.size() << " ms \n";
+        std::cout << "-Teste " << i+1 << ": "<< n << " | " << static_cast<double> (media)/tempo.size() << " microssegundos \n";
 
         n *= 10;
 
