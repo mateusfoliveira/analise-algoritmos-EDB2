@@ -1,5 +1,6 @@
-#ifndef MEDIRBUSCA_H
-#define MEDIRBUSCA_H
+#ifndef MEDIRTEMPO_H
+#define MEDIRTEMPO_H
+#include <iostream>
 #include <vector>
 #include <functional>
 

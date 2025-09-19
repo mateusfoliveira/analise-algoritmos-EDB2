@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include "algoritmosBusca.h"
-#include "medirBusca.h"
+#include "medirTempo.h"
 int main (){
 
     measureSearch(sequencialSearch, "Busca Sequencial");
