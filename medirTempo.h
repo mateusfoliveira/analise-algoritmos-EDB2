@@ -6,4 +6,6 @@
 
 void measureSearch(std::function<int(const std::vector <int> &vector, int find)> algoritmoBusca, std::string nomeDaBusca);
 
+void measureOrdenation(std::function<int(std::vector <int> &vector)> algoritmoOrdenacao, std::string nomeDoAlgoritmo);
+
 #endif

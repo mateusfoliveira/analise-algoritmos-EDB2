@@ -4,7 +4,7 @@
 #include <functional>
 #include "gerarVetor.h"
 
-void measureSearch(std::function<int( std::vector <int> &vector, int find)> algoritmoBusca, std::string nomeDaBusca){
+void measureSearch(std::function<int(const std::vector <int> &vector, int find)> algoritmoBusca, std::string nomeDaBusca){
 
     int n = 100;
 
@@ -44,7 +44,7 @@ void measureSearch(std::function<int( std::vector <int> &vector, int find)> algo
     }
 }
 
-void measureOrdenation(std::function<void(const std::vector <int> &vector)> algoritmoOrdenacao, std::string nomeDoAlgoritmo){
+void measureOrdenation(std::function<void(std::vector <int> &vector)> algoritmoOrdenacao, std::string nomeDoAlgoritmo){
 
     int n = 100;
 
