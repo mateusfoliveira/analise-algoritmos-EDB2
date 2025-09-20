@@ -4,7 +4,7 @@
 #include <functional>
 #include "gerarVetor.h"
 
-void measureSearch(std::function<int(const std::vector <int> &vector, int find)> algoritmoBusca, std::string nomeDaBusca){
+void measureSearch(std::function<int( std::vector <int> &vector, int find)> algoritmoBusca, std::string nomeDaBusca){
 
     int n = 100;
 
