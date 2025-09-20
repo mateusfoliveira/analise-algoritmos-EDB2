@@ -1,26 +1,26 @@
 # Análise Empírica de Complexidade de Algoritmos
 
-[cite_start]Programa desenvolvido em C++ para matéria de **Estrutura de Dados Básica 2**[cite: 47]. 
-[cite_start]O objetivo do trabalho era criar um software capaz de avaliar empiricamente o tempo de execução de diferentes algoritmos de busca e ordenação e a partir dos dados coletados, comparar o comportamento observado com funções de complexidade teórica conhecidas (Big-O) para validar a teoria na prática[cite: 48].
+Programa desenvolvido em C++ para matéria de **Estrutura de Dados Básica 2**. 
+O objetivo do trabalho era criar um software capaz de avaliar empiricamente o tempo de execução de diferentes algoritmos de busca e ordenação e a partir dos dados coletados, comparar o comportamento observado com funções de complexidade teórica conhecidas (Big-O) para validar a teoria na prática.
 
 ## ⚙️ Algoritmos Analisados
 
 Foram analisados quatro algoritmos distintos:
 
-* [cite_start]**Busca Sequencial** - Complexidade Teórica: $O(n)$ [cite: 59]
-* [cite_start]**Busca Binária** - Complexidade Teórica: $O(\log n)$ [cite: 60]
-* [cite_start]**Insertion Sort** - Complexidade Teórica (Caso Médio): $O(n^2)$ [cite: 61]
-* [cite_start]**Merge Sort** - Complexidade Teórica: $O(n \log n)$ [cite: 62]
+* **Busca Sequencial** - Complexidade Teórica: $O(n)$ [cite: 59]
+* **Busca Binária** - Complexidade Teórica: $O(\log n)$ [cite: 60]
+* **Insertion Sort** - Complexidade Teórica (Caso Médio): $O(n^2)$ [cite: 61]
+* **Merge Sort** - Complexidade Teórica: $O(n \log n)$ [cite: 62]
 
 ## 🛠️ Tecnologias Utilizadas
 
-* [cite_start]**Linguagem:** C++ [cite: 53]
-* [cite_start]**Ambiente:** Windows 10 com WSL (Subsistema do Windows para Linux) [cite: 52]
+* **Linguagem:** C++ [cite: 53]
+* **Ambiente:** Windows 10 com WSL (Subsistema do Windows para Linux) [cite: 52]
 * **Compilador:** g++
 * **Bibliotecas Padrão:**
-    * [cite_start]`<chrono>`: Para medição precisa do tempo de execução[cite: 55].
-    * [cite_start]`<random>`: Para a geração de vetores com entradas aleatórias[cite: 55].
-    * [cite_start]`<functional>`: Para a modularização e passagem de funções como parâmetro[cite: 56].
+    * `<chrono>`: Para medição precisa do tempo de execução[cite: 55].
+    * `<random>`: Para a geração de vetores com entradas aleatórias[cite: 55].
+    * `<functional>`: Para a modularização e passagem de funções como parâmetro[cite: 56].
 
 ## 🚀 Como Executar
 
