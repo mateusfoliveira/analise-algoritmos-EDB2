@@ -8,20 +8,20 @@ O objetivo do trabalho era criar um software capaz de avaliar empiricamente o te
 
 Foram analisados quatro algoritmos distintos:
 
-* **Busca Sequencial** - Complexidade Teórica: $O(n)$ [cite: 59]
-* **Busca Binária** - Complexidade Teórica: $O(\log n)$ [cite: 60]
-* **Insertion Sort** - Complexidade Teórica (Caso Médio): $O(n^2)$ [cite: 61]
-* **Merge Sort** - Complexidade Teórica: $O(n \log n)$ [cite: 62]
+* **Busca Sequencial** - Complexidade Teórica: $O(n)$
+* **Busca Binária** - Complexidade Teórica: $O(\log n)$
+* **Insertion Sort** - Complexidade Teórica (Caso Médio): $O(n^2)$
+* **Merge Sort** - Complexidade Teórica: $O(n \log n)$ 
 
 ## 🛠️ Tecnologias Utilizadas
 
-* **Linguagem:** C++ [cite: 53]
-* **Ambiente:** Windows 10 com WSL (Subsistema do Windows para Linux) [cite: 52]
+* **Linguagem:** C++
+* **Ambiente:** Windows 10 com WSL (Subsistema do Windows para Linux)
 * **Compilador:** g++
 * **Bibliotecas Padrão:**
-    * `<chrono>`: Para medição precisa do tempo de execução[cite: 55].
-    * `<random>`: Para a geração de vetores com entradas aleatórias[cite: 55].
-    * `<functional>`: Para a modularização e passagem de funções como parâmetro[cite: 56].
+    * `<chrono>`: Para medição precisa do tempo de execução.
+    * `<random>`: Para a geração de vetores com entradas aleatórias.
+    * `<functional>`: Para a modularização e passagem de funções como parâmetro.
 
 ## 🚀 Como Executar
 
