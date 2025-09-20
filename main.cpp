@@ -1,11 +1,12 @@
 #include <iostream>
 #include <vector>
 #include "algoritmosBusca.h"
+#include "algoritmosOrdenacao.h"
 #include "medirTempo.h"
 int main (){
 
-    std::cout << "--- Bem vindo ao teste de algoritmos!--- \nEscolha uma das opcoes: \n";
-    std::cout << "1 - Medir busca (vetor ordenado e pior caso)\n" << "2 - Medir ordenacao\n" << "3 - Encerrar execucao\n";
+    std::cout << "--- Bem vindo ao programa de teste empirico de algoritmos!--- \n";
+    std::cout << "Escolha uma das opcoes: \n 1 - Medir busca (vetor ordenado e pior caso)\n" << "2 - Medir ordenacao\n" << "3 - Encerrar execucao\n";
 
     int entrada;
     
@@ -16,7 +17,7 @@ int main (){
             measureSearch(binarySearch, "Busca Sequencial");
             break;
         case 2:
-            //measureOrdenation();
+            measureOrdenation(mergeSort, "Merge Sort");
             break;
         case 3:
             return 0;
