@@ -1,6 +1,6 @@
 # Análise Empírica de Complexidade de Algoritmos
 
-Programa desenvolvido em C++ para matéria de **Estrutura de Dados Básica 2**. 
+###Programa desenvolvido em C++ para matéria de **Estrutura de Dados Básica 2**.### 
 O objetivo do trabalho era criar um software capaz de avaliar empiricamente o tempo de execução de diferentes algoritmos de busca e ordenação e a partir dos dados coletados, comparar o comportamento observado com funções de complexidade teórica conhecidas (Big-O) para validar a teoria na prática.
 
 ## ⚙️ Algoritmos Analisados
