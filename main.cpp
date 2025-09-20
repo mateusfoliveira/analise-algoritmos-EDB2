@@ -13,15 +13,14 @@ int main (){
 
     switch(entrada){
         case 1:
-            measureSearch(sequencialSearch, "Busca Sequencial");
+            measureSearch(binarySearch, "Busca Sequencial");
             break;
         case 2:
+            //measureOrdenation();
             break;
         case 3:
+            return 0;
             break;
-
-
-
     }
 
     return 0;
