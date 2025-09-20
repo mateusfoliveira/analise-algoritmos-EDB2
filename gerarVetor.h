@@ -4,6 +4,6 @@
 
 std::vector <int> gerarVetorOrdenado(int entrada);
 
-
+std::vector <int> gerarVetorDesordenado(int entrada);
 
 #endif
